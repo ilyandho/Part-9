@@ -53,15 +53,7 @@ const exerciseCalculator = (
     ratingDescription = 'you need to see the teacher';
     rating = 1;
   }
-  console.log({
-    periodLength: exercises.length,
-    trainingDays,
-    success: average > target,
-    rating,
-    ratingDescription,
-    target,
-    average,
-  });
+
   return {
     periodLength: exercises.length,
     trainingDays,
@@ -80,3 +72,5 @@ try {
 } catch (err) {
   console.log('Oooppps... Something went wrong, message: ', err.message);
 }
+
+export default exerciseCalculator;
