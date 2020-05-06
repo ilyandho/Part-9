@@ -55,3 +55,5 @@ try {
 } catch (err) {
   console.log('Error, something bad happened, message:', err.message);
 }
+
+export default calculateBmi;
