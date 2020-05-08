@@ -1,0 +1,10 @@
+POST  http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+  "name": "Ilyas Ndhote",
+  "dateOfBirth": "1994-12-25",
+  "ssn": "23-3-345",
+  "gender": "male",
+  "occupation": "Teacher"
+}
